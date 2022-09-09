@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Master</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <h1 class="brand-name">
+        <img
+          src="assests/coffee.png"
+          alt="coffee master logo"
+          class="logo"
+          height="25"
+          width="25"
+        />
+        Coffee Master
+      </h1>
+    </nav>
+    <div class="page">
+      <section class="order">
+        <h2 class="box-title">Items</h2>
+        <ul class="items">
+          <li class="item">
+            <div class="item-quantity">1x</div>
+            <div class="item-title">Cappucino</div>
+            <div class="item-price">$5</div>
+            <ul class="item-options-list">
+              <li class="item-option">Light Foam</li>
+            </ul>
+          </li>
+          <li class="item">
+            <div class="item-quantity">1x</div>
+            <div class="item-title">Cappucino</div>
+            <div class="item-price">$7</div>
+            <ul class="item-options-list">
+              <li class="item-option">Almond Milk</li>
+              <li class="item-option">Double Espresso Shot</li>
+            </ul>
+          </li>
+          <li class="item">
+            <div class="item-quantity">1x</div>
+            <div class="item-title">Croissant</div>
+            <div class="item-price">$6</div>
+            <ul class="item-options-list">
+              <li class="item-option">Butter</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="payment-info">
+        <div class="name-box box">
+          <h2 class="box-title">Name</h2>
+          <div class="input-group">
+            <fieldset class="user-input">
+              <legend class="user-input title">Name for order</legend>
+              <label for="name" class="user-input label"></label>
+              <input type="text" class="user-input input" id="name" />
+            </fieldset>
+          </div>
+        </div>
+        <div class="cc-box box">
+          <h2 class="box-title">Payment</h2>
+          <div class="input-group">
+            <fieldset class="user-input">
+              <legend class="user-input title">Card Number</legend>
+              <label for="cc" class="user-input label"></label>
+              <input type="number" class="user-input input" id="cc" />
+            </fieldset>
+          </div>
+          <div class="input-group">
+            <fieldset class="user-input">
+              <legend class="user-input title">CVV Number</legend>
+              <label for="cvv" class="user-input label"></label>
+              <input type="number" class="user-input input" id="cvv" />
+            </fieldset>
+          </div>
+        </div>
+      </section>
+      <section class="total">
+        <table class="summary-table">
+          <tbody>
+            <tr>
+              <td>Subtotal:</td>
+              <td>$19.27</td>
+            </tr>
+            <tr>
+              <td>Tax:</td>
+              <td>$0.98</td>
+            </tr>
+            <tr class="final total">
+              <td>Total:</td>
+              <td>$20.25</td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="checkout" type="button">Place Order</button>
+      </section>
+    </div>
+  </body>
+</html>
