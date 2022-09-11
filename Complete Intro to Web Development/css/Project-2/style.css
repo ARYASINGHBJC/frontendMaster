@@ -19,7 +19,7 @@
     grid-template-areas:
       "order payment"
       "total total";
-    grid-template-columns: 1fr 1fr;;
+    grid-template-columns: 1fr 1fr;
   }
   
   .main-nav {
@@ -185,3 +185,12 @@
     transition: 1s ease-in;
 }
 
+@media (max-width:400px){
+  .page{
+    grid-template-areas:
+    "order"
+    "payment"
+    "total";
+    grid-template-columns: 1fr;
+  }
+}
