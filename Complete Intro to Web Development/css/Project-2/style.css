@@ -183,6 +183,7 @@
 .checkout:hover{
     background:indianred;
     transition: 1s ease-in;
+    cursor: pointer;
 }
 
 @media (max-width:400px){
