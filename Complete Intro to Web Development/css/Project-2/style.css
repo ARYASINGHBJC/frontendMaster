@@ -41,7 +41,7 @@
   .box {
     background-color: #eee1d5;
     border-radius: 5px;
-    box-shadow: -2px -3px 2px 1px inset red, 2px 3px 3px 1px inset blue;;
+    box-shadow: -2px -3px 2px 1px inset red, 2px 3px 3px 1px inset blue;
     padding: 15px;
     margin-bottom: 20px;
     width: 100%;
@@ -168,6 +168,7 @@
   
   .final-totals {
     font-weight: bold;
+    color:#43281c;
   }
   
   .checkout {
@@ -177,6 +178,7 @@
     width: 100%;
     border-radius: 100px;
     font-size: 16px;
+    font-family: cursive;
   }
 .checkout:hover{
     background:indianred;
