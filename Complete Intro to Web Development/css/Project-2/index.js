@@ -1,11 +1,11 @@
 const input = document.querySelector(".user-input");
 const creditCardNumber = document.querySelector("#cc");
-const ccvNumber = document.querySelector("#ccv");
+const cvvNumber = document.querySelector("#cvv");
 const button = document
   .querySelector(".checkout")
   .addEventListener("click", () => {
     input.value = "";
     creditCardNumber.value = "";
-    ccvNumber.value = "";
+    cvvNumber.value = "";
     alert("Order placed successfully!");
   });
