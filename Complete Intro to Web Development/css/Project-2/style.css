@@ -48,9 +48,10 @@
   }
   
   .box-title {
-    color: #885a2d;
+    color:rgb(72, 32, 40);
     font-weight: normal;
     font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }
   
   .order {
