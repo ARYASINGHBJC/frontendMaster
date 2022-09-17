@@ -1,5 +1,4 @@
 # frontendMaster
-<h1>Frontend Master Beginner till Expert</h1>
 <h2>Course-1: Complete intro to Web Development</h2>
 <h3>HTML</h3>
 <a href = "https://demoblog1.netlify.app/"> Simple Blog </a>
