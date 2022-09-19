@@ -95,7 +95,7 @@ async function init() {
       //   .querySelector("scoreboard-letter")
       //   .forEach((element) => (element.innerText = ""));
       Array.from(document.getElementsByClassName("scoreboard-letter")).forEach(
-        (element) => (element.style.backgroundColor = "white")
+        (element) => (element.style.backgroundCitolor = "white")
       );
       done = true;
     }
