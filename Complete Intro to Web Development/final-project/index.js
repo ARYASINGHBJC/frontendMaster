@@ -85,7 +85,7 @@ async function init() {
       done = true;
     } else if (currentRow === ROUNDS) {
       // lose
-      alert(`you lose, the word was ${word}`);
+      alert(`you lose, the word was ${word}. Please come back tomorrow`);
       // document.getElementById("letter-0").innerText = "";
       // document.getElementsByClassName("scoreboard-letter").innerText = "";
       Array.from(document.getElementsByClassName("scoreboard-letter")).forEach(
